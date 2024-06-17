@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.active {
+    @apply bg-[#ffaf02];
+}
+
+.inactive {
+    @apply bg-[#b8b4b3];
+}
+
+/* .hidden {
+    display: none;
+} */
+
+
+
+/* .btn {
+    @apply bg-[#24BFA3] text-white px-7 py-3 rounded-lg font-semibold hover:bg-black hover:transition-colors;
+} */
+
+/* .active {
+    background-color: #ffaf02;
+}
+
+.inactive{
+    background-color: #b8b4b3;
+} */
+
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999999;
+}
+
+button.active-content{
+    background-color: #ff4b33;
+}
+
+.tabcontent{
+    display: none;
+}
